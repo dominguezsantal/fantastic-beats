@@ -6,15 +6,23 @@ body {
   background-color: gray;
 }
 
+nav {
+  background-color: black;
+  color:white;
+  width: 25%;
+}
+
 img {
   width: 100%;
+  height: 250px;
+  object-fit: cover;
 }
 
 .columns {
-  float: right;
-  width: 30%;
-  margin: 12px;
+  /* float: right; */
+  margin: 1%;
   border: solid 2px blue;
+  height:
 
 }
 
@@ -23,6 +31,25 @@ img {
 }
 
 .descriptions {
+  height: 500px;
   padding: 5px;
   background-color: white;
+  margin-top: -4px;
+}
+
+@media (min-width: 786px) {
+  .columns {
+    display: inline-grid;
+    width: 25%;
+  }
+  nav{
+    float:right;
+    width: 175px
+  }
+
+
+
+
+
+
 }
