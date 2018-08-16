@@ -1,0 +1,28 @@
+h2 {
+  font-weight: bold;
+}
+
+body {
+  background-color: gray;
+}
+
+img {
+  width: 100%;
+}
+
+.columns {
+  float: right;
+  width: 30%;
+  margin: 12px;
+  border: solid 2px blue;
+
+}
+
+.columns p {
+  width: 100%;
+}
+
+.descriptions {
+  padding: 5px;
+  background-color: white;
+}
